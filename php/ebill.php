@@ -37,10 +37,9 @@ if(isset($_POST["submit"])) {
     $name   = $_POST["cname"];
     $units  = $_POST["units"];
 
-    // Simple fixed tariff per unit
-    $tariff = 1.50;   // You can change this value
-
-    // Bill calculation
+   
+    $tariff = 1.50;
+   
     $bill = $units * $tariff;
 
     echo "<h3>
